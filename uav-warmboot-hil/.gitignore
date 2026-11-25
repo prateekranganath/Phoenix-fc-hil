@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / Vite
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Simulator output (the reference sensor log is kept)
+sim-engine/logs/*.csv
+!sim-engine/logs/sensor_reference_log.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
